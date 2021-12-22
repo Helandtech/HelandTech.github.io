@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hel - Portfolio</title>
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <!--CSS-->
+    <link rel='stylesheet' href='style.css' type='text/css'>
+
+</head>
+<body>
+    <!--navigation bar-->
+
+    <div id='pageOne'>
+    <header> 
+        <nav>
+          <img src='Images\hellenlogo.png' alt='Hellen logo' class='site_logo'>   
+        <ul class='menu_info' id=' remove_menu'>
+            <li><a href='#home'>Home</a></li>
+            <li><a href='#about'>About me</a></li>
+            <li><a href='#skills'>Skills</a></li>
+            <li><a href='#projects'>Projects</a></li>
+            <li><a href='#contact'>Contact</a></li>
+        </ul>
+
+        
+<!--Dropdown menu-->
+        <div class="dropdown_menu">
+            <button class="dropdown"><i class="bi bi-list"></i></button>
+            <div class="dropdown_list">
+             <a href='#home'>Home</a>
+             <a href='#about'>About me</a>
+             <a href='#skills'>Skills</a>
+             <a href='#projects'>Projects</a>
+             <a href='#contact'>Contact</a> 
+          
+            </div>
+          </div>
+<!--Dropdown menu-->
+        </nav>
+
+
+
+    </header>
+    <hr/>
+
+    <main>
+        <!--home section-->
+        <section id='home'>
+            <div class='main-content-border'>
+            <h1>Hi! I am Hellen </h1>
+            <img src='Images\thumbnail.jpg' alt='self-portrait' class='main_picture'>
+            <p> &#x3c;A front-end developer in the making.&#47;&#x3e; </p>
+            </div>
+
+        </section>
+    </div>
+    <hr/>
+
+
+        <!--about section-->
+        <section id='about'>
+            <div class='comune_title'><h2 class='sections_headings'> About me</h2></div>
+
+        <div class='about_container'>
+            <div class='about-background'>
+                <p class='personal_info'>
+                Hellen here! I am self-taught developer.
+                Recently Business and marketing graduate, with a passion for digital and technology world.  Due to my study background, I had chances to familiarised with social media, app and website; coding was literally the next step to take. 
+                I enjoy spending my free time reading, studying, and writing anything code and tech related. My main interest is front-end and everything that’s strictly related to user experience.
+                
+                </p>
+            </div>
+            
+            <div class='button_background'> 
+                <button class='cv_download'> <a href='Doc\HellenE CVs.pdf' target="_blank">CV</a></button>
+                <button class='cv_download'> <a href='#contact'>Contact</a></button> 
+            </div>
+        </div>
+        
+        </section>
+        <hr/>
+        
+
+
+        <!--skills section-->
+        <section id='skills'>
+        <div class='Skill_background'> <h2 class='skills_heading'>Skills</h2></div>
+        <div class='skill_gallery'>
+            <figure>
+                <img src='Images/icons8-html-5-144.png' alt='html5 logo' class="skill_logo">
+                <figcaption>HTML</figcaption>
+            </figure>
+
+            <figure>
+                <img src='Images/icons8-css3-144.png' alt='css3 logo'  class="skill_logo">
+                <figcaption>CSS</figcaption>
+            </figure>
+
+            <figure>
+                <img src='Images/icons8-javascript-144.png' alt='javaScript' width='144px'  class="skill_logo">
+                <figcaption>JAVASCRIPT</figcaption>
+            </figure>
+            
+            <figure>
+                <img src='Images/icons8-figma-144.png' alt='javaScript' width='144px'  class="skill_logo">
+                <figcaption>FIGMA</figcaption>
+            </figure>
+        </div>
+        
+
+        </section>
+        <hr/>
+
+
+
+        <!--project section-->
+        <section id='projects'>
+            <div class='comune_title'><h2 class='sections_headings'> Projects</h2></div>
+            <div class='projects_display'>
+                <figure><a href='#pageOne'> <img src='Images/PPE.png' alt='personal portfolio' target="_blank" class='Imagine_wxh'></a>
+                    <figcaption>Hellen's portfolio</figcaption>
+                </figure>
+                
+                <figure> <a href='https://codepen.io/Hel-TECHoffhand/full/ZEJLzra'><img src='Images\Screenshot 2021-11-21 010310.png' alt='A tribute page for Aretha Franklin' target="_blank" class='Imagine_wxh'></a>
+                    <figcaption>Tribute Page</figcaption>
+                </figure>
+                
+                <figure><a href="https://www.adeysteelgroup.co.uk/"><img src='Images/Adey web page.png' alt='Adey Steel website' target="_blank" class='Imagine_wxh'></a>
+                 <figcaption>UI design: Adeysteelgroup Website</figcaption>
+                </figure>
+                
+                <figure><a href='Doc\Adey Steel Newsletter - Feb 2020 v2.pdf'><img src='Images/Adey neswlett.png' alt='Adey Steel Newspaper' target="_blank"  class='Imagine_wxh'></a>
+                 <figcaption>UI design: Adeysteelgroup Newsletter</figcaption>
+                </figure>
+                
+            </div>
+        </section>
+        <hr/>
+    
+
+    <!--contact section-->
+    <section id='contact'>
+        <h2 class='contact_heading'> <span>Get in</span> <br>Contact</h2>
+
+    <div class='contact_container'>
+        <div class='item1'>
+
+        <img src='Images\thumbnail.jpg' alt='self-portrait' class='main_picturecontact'>
+        </div>
+
+
+        <div class='item2'>
+        <form action=”mailto:uniprojects2020@gmail.com” method=”POST” enctype=”multipart/form-data” name=”EmailForm”>
+            <input type='text' id='name' placeholder="Name*"><br>
+            <br><input type='text' id='surname' placeholder='Last name*'><br>
+            <br><input type='email' id='email' placeholder='Email*' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br>
+            <br><textarea id='extrainfo'name='extrainfo' rows="5" cols="24" placeholder='Enquires...'></textarea><br>
+            <input type='submit' value='Submit' id='submit'>
+        </form>
+        </div>
+
+    </div>
+
+    </section>
+    <hr/>
+</main>
+
+
+<!--footer-->
+<footer>
+    <p>Connect with me</p>
+    <div class='footer_container'>
+
+        <div class ='personalcontact'>
+            <!--location--> 
+            <figure>
+                <a href='https://www.google.com/maps/place/United+Kingdom/@53.2202105,-22.2277193,4z/data=!3m1!4b1!4m5!3m4!1s0x25a3b1142c791a9:0xc4f8a0433288257a!8m2!3d55.378051!4d-3.435973' target="_blank"><i class="bi bi-geo-alt"></i></a>
+                <figcaption>Based in the UK</figcaption>
+            </figure>
+            
+              
+        </div> 
+
+        <div class ='personalcontact'>
+            <!--Email-->
+            <figure>
+                <a href="mailto:uniprojects2020@gmail.com"><i class="bi bi-envelope"></i> </a>
+                <figcaption><a href="mailto:uniprojects2020@gmail.com"> uniprojects2020@gmail.com</a></figcaption>
+            </figure>
+            
+             
+        </div>
+      
+
+        <div class='socialcontact'>
+            <!--Github-->
+            <a href='https://github.com/Helandtech' target='_blank'><i class="bi bi-github"></i></a>
+            <!--Linkedin-->
+            <a href='https://www.linkedin.com/in/hellen-e-391341176/' target="_blank"><i class="bi bi-linkedin "></i></a><br>
+        </div>
+        
+    </div>
+<p class='right'>Copyright &copy; by Hellen. All Rights Reserved. </p>
+    </footer>
+    
+</body>
+</html>
